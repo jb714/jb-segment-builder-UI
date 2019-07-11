@@ -1,0 +1,122 @@
+//MOVE THESE TO SEPARATE VARIABLES FOLDER
+
+//screen sizes
+$screen-xs-max: 400px;
+$screen-sm-max: 768px;
+$screen-md-min: 769px;
+
+//color variables
+$jade: #48B28E;
+$seafoam: #6AC1A4;
+
+//b/w gradients
+$white: #FFFFFF;
+$light-gray: #ECEEF2;
+$gray: #CFD0D3;
+$dark-gray: #4B4E52;
+$charcoal: #2E343D;
+$black: #000000;
+
+//position
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+//text sizes
+.text-xs {
+  font-size: 8px;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+//utility classes
+.inline-block {
+  display: inline-block !important;
+}
+
+.mr-top-24 {
+  margin-top: 24px;
+}
+
+.mr-right-72 {
+  margin-right: 72px;
+}
+
+.mb-gutter {
+  margin-bottom: 16px;
+}
+
+.mr-gutter {
+  margin-right: 16px;
+}
+//Font colors
+.color-jade {
+  color: $jade !important;
+}
+
+.color-white {
+  color: $white !important;
+}
+
+.color-light-gray {
+  color: $light-gray !important;
+}
+
+.color-gray {
+  color: $gray !important;
+}
+
+.color-dark-gray {
+  color: $dark-gray !important;
+}
+
+//Background colors
+.bg-gray {
+  background-color: $gray !important;
+}
+
+.bg-charcoal {
+  background-color: $charcoal !important;
+}
+
+
+.bg-white {
+  background-color: $white !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.bg-jade {
+  background-color: $jade !important;
+}
+
+
+//borders
+.border-gray {
+  border: 1px solid $gray !important;
+}
+
+.border-dark-gray {
+  border: 1px solid $dark-gray !important;
+}
+
+.border-charcoal {
+  border: 1px solid $charcoal !important;
+}
+
+.border-white {
+  border: 1px solid $white !important;
+}
+
+.border-none {
+  border: 0 !important;
+}

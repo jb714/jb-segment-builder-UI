@@ -1,0 +1,36 @@
+//Main content styles
+
+//nav sidebar styles
+.site-nav {
+  // padding: 40px;
+  color: $white;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: $charcoal;
+  color: $white;
+}
+
+.sidebar-container {
+  flex: 0 0 170px;
+  .sidebar-nav {
+    height: 100%;
+    padding-top: 40px;
+    .sidebar-item {
+      padding: 16px 0px 16px 32px;
+    }
+  }
+}
+
+.mobile-nav-container {
+  width: 100%;
+  .mobile-nav {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .mobile-nav-item {
+      display: inline-block;
+
+    }
+  }
+}
