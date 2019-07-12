@@ -9,21 +9,21 @@ class SiteNavigation extends Component {
       <Fragment>
         <div className="col sidebar-container d-none d-lg-block">
           <div className="site-nav sidebar-nav">
-            <div className="sidebar-item">Overviews</div>
-            <div className="sidebar-item">Experiences</div>
-            <div className="sidebar-item">Segments</div>
-            <div className="sidebar-item">Insights</div>
-            <div className="sidebar-item">Visitor Cloud</div>
+            <a className="sidebar-item">Overviews</a>
+            <a className="sidebar-item">Experiences</a>
+            <a className="sidebar-item active">Segments</a>
+            <a className="sidebar-item">Insights</a>
+            <a className="sidebar-item">Visitor Cloud</a>
           </div>
         </div>
 
         <div className="col-xs-12 mobile-nav-container d-xs-block d-lg-none">
           <div className="site-nav mobile-nav">
-            <div className="mobile-nav-item">Overviews</div>
-            <div className="mobile-nav-item">Experiences</div>
-            <div className="mobile-nav-item">Segments</div>
-            <div className="mobile-nav-item">Insights</div>
-            <div className="mobile-nav-item">Visitor Cloud</div>
+            <a className="mobile-nav-item">Overviews</a>
+            <a className="mobile-nav-item">Experiences</a>
+            <a className="mobile-nav-item active">Segments</a>
+            <a className="mobile-nav-item">Insights</a>
+            <a className="mobile-nav-item">Visitor Cloud</a>
           </div>
         </div>
       </Fragment>
