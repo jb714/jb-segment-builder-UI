@@ -1,6 +1,6 @@
-//Main content styles
-
 //nav sidebar styles
+@import 'styleguide.scss';
+
 .site-nav {
   // padding: 40px;
   color: $white;
@@ -32,17 +32,31 @@
 
 .mobile-nav-container {
   width: 100%;
+  display: flex;
   .mobile-nav {
     height: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     .mobile-nav-item {
-      display: inline-block;
-      position:relative;
       &.active{
         background-color: #3B424D;
       }
     }
   }
+}
+
+
+//$screen-md-max: 769px;
+//$screen-lg-min: 992px;
+
+@media screen and (min-width: $screen-lg-min) {
+  .sidebar-container {
+    display: block;
+  }
+
+  .mobile-nav-container {
+    display: none;
+  }
+
 }

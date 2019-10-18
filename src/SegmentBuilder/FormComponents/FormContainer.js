@@ -50,7 +50,7 @@ class FormContainer extends Component {
     } = this.props;
 
     return (
-      <div className="col">
+      <div>
         <form>
           <FormHeader
             userData={userData}

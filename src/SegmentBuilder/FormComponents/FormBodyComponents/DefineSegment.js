@@ -68,7 +68,7 @@ class DefineSegment extends Component {
     let lowerBound = this.setSegmentLowerBound(upperBound);
 
     return (
-        <section className="flex-space-between mb-gutter">
+        <section className="segment-overview flex-space-between mb-gutter">
           <div className="define-segment form-body-group mr-gutter">
             <p>Define a new Segment</p>
             <p>Add a Condition to define a segment. The more conditions you add the more specific your segment will be.</p>

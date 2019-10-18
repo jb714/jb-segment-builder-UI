@@ -3,7 +3,7 @@
 
 .form-body {
   background-color: $light-gray;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   height: fit-content;
 
   .form-body-group {
@@ -59,12 +59,15 @@
   }
 }
 
-.define-segment {
-  min-width: 29%;
-}
+.segment-overview {
+  margin-top: -30px;
+  .define-segment {
+    min-width: 29%;
+  }
 
-.segment-estimate {
-  min-width: 69%;
+  .segment-estimate {
+    min-width: 69%;
+  }
 }
 
 .progress-bar {

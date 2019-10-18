@@ -27,11 +27,11 @@ class App extends Component {
   render (){
 
     return (
-      <div className="App container-fluid px-0">
-        <header className="row">
+      <div className="App px-0">
+        <header>
           <SiteHeader userData={this.state.userData} />
         </header>
-        <main className="row no-gutters main-content">
+        <main className="no-gutters main-content">
           <SiteNavigation />
           <FormContainer userData={this.state.userData} />
         </main>

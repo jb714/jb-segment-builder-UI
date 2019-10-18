@@ -11,7 +11,8 @@ class NewCondition extends Component {
             <div>
               <p className="inline-block mr-right-72">New condition</p>
               <Form.Control as="select" name="product-search-criteria">
-                <option value="category">Purchase history</option>
+                <option value="category">Geography</option>
+                <option value="category">Age demographic</option>
               </Form.Control>
             </div>
             <Button className="bg-jade border-none color-white">+ Add</Button>

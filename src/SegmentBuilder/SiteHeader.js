@@ -20,7 +20,7 @@ class SiteHeader extends Component {
     } = this.props;
 
     return (
-        <Navbar className="col-sm-12 site-header">
+        <Navbar className="site-header">
           <Navbar.Brand className="site-title color-dark-gray">Qubit.</Navbar.Brand>
           <Nav className="account-nav">
             <div className="nav-item circular-badge bg-gray">
