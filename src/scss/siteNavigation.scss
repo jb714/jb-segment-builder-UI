@@ -2,7 +2,6 @@
 @import 'styleguide.scss';
 
 .site-nav {
-  // padding: 40px;
   color: $white;
   font-size: 12px;
   font-weight: 600;
@@ -30,33 +29,15 @@
   }
 }
 
-.mobile-nav-container {
+.mobile-nav {
+  height: 40px;
   width: 100%;
   display: flex;
-  .mobile-nav {
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    .mobile-nav-item {
-      &.active{
-        background-color: #3B424D;
-      }
+  justify-content: space-around;
+  align-items: center;
+  .mobile-nav-item {
+    &.active{
+      color: #B2486C;
     }
   }
-}
-
-
-//$screen-md-max: 769px;
-//$screen-lg-min: 992px;
-
-@media screen and (min-width: $screen-lg-min) {
-  .sidebar-container {
-    display: block;
-  }
-
-  .mobile-nav-container {
-    display: none;
-  }
-
 }

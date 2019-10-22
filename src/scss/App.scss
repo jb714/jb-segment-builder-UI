@@ -6,11 +6,11 @@
 
 .main-content {
   min-height: fit-content;
-  display: flex;
+  display: block;
 }
 
-// @media screen and (max-width: $screen-xs-max) {
-//   .main-content {
-//     display: block;
-//   }
-// }
+@media screen and (min-width: $screen-lg-min) {
+  .main-content {
+    display: flex;
+  }
+}

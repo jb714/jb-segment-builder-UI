@@ -7,7 +7,7 @@ class SiteNavigation extends Component {
   render (){
     return (
       <Fragment>
-        <div className="sidebar-container">
+        <div className="sidebar-container d-none d-lg-block">
           <div className="site-nav sidebar-nav">
             <a className="sidebar-item">Overviews</a>
             <a className="sidebar-item">Experiences</a>
@@ -17,14 +17,12 @@ class SiteNavigation extends Component {
           </div>
         </div>
 
-        <div className="mobile-nav-container">
-          <div className="site-nav mobile-nav">
-            <a className="mobile-nav-item">Overviews</a>
-            <a className="mobile-nav-item">Experiences</a>
-            <a className="mobile-nav-item active">Segments</a>
-            <a className="mobile-nav-item">Insights</a>
-            <a className="mobile-nav-item">Visitor Cloud</a>
-          </div>
+        <div className="site-nav mobile-nav d-xs-block d-lg-none">
+          <a className="mobile-nav-item">Overviews</a>
+          <a className="mobile-nav-item">Experiences</a>
+          <a className="mobile-nav-item active">Segments</a>
+          <a className="mobile-nav-item">Insights</a>
+          <a className="mobile-nav-item">Visitor Cloud</a>
         </div>
       </Fragment>
     );
