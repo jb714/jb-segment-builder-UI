@@ -14,7 +14,7 @@ class FormContainer extends Component {
           techSearchTerms: []
         },
         startDate: new Date(),
-        availableSections: {geography: true, ageDemographics: true} //was building out functionality to add sections
+        availableSections: {geography: true, ageDemographics: true} //building out functionality to add sections
       }
     }
 
@@ -23,7 +23,6 @@ class FormContainer extends Component {
   }
 
   addSearchTerm(inputId, term){
-      //want to refactor to make DRY. template literals??
       let productSearchTerms = this.state.formData.searchTerms.productSearchTerms;
       let techSearchTerms = this.state.formData.searchTerms.techSearchTerms;
 

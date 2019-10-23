@@ -19,11 +19,6 @@
       display: block;
       &.active{
         background-color: #3B424D;
-        .sidebar-item:before {
-          content: '';
-          position: absolute;
-          background-color: white;
-        }
       }
     }
   }

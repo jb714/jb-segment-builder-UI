@@ -32,7 +32,7 @@ class TechnologyUsed extends Component {
               <div className="pseudo-input-badge" key={uuid.v4()}>{term}</div>
             ))}
           </div>
-          {techArrayLength === 2 ? '' : <Form.Control id="tech" type="text" className="mr-top-24" placeholder="+Tech Used" onKeyDown={handleClickOnEnter}/> }
+          {techArrayLength > 1 ? '' : <Form.Control id="tech" type="text" className="mr-top-24" placeholder="+Tech Used" onKeyDown={handleClickOnEnter}/> }
         </section>
     );
   }
