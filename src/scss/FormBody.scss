@@ -34,9 +34,6 @@
   }
 
   .form-control {
-    @media screen and (max-width: $screen-sm-max) {
-      margin-bottom: 16px;
-    }
     display: inline-block;
     height: 32px;
     width: 200px;
@@ -53,13 +50,15 @@
         border-radius: 4px;
       }
       &.wide {
-        width: 350px;
+        width: 250px;
       }
     }
   }
 }
 
 .segment-overview {
+  display: flex;
+  justify-content: space-between;
   .define-segment {
     min-width: 29%;
   }
@@ -71,4 +70,31 @@
 
 .progress-bar {
   background-color: $jade;
+}
+
+
+@media screen and (max-width: $screen-sm-max) {
+
+  .form-body {
+    font-size: 12px;
+  }
+
+  .form-control {
+    height: 18px;
+    width: 160px;
+    font-size: 10px;
+    margin-bottom: 16px;
+  }
+
+  .segment-overview {
+    display: block;
+    .define-segment {
+      display: block;
+      width: 100%;
+    }
+    .segment-estimate {
+      display: block;
+      width: 100%;
+    }
+  }
 }

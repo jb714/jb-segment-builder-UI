@@ -39,7 +39,6 @@ class FormContainer extends Component {
     }
 
     handleDateChange(date){
-      let startDate = this.state.formData.startDate;
       this.setState({startDate: date});
     }
 

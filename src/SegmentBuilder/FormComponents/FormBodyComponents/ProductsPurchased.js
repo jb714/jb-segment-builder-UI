@@ -36,13 +36,13 @@ class ProductsPurchased extends Component {
             ))}
           </div>
           {productArrayLength === 5 ? '' :
-            <Form.Control id="product" type="text" className="mr-top-24" placeholder="+More" onKeyDown={handleClickOnEnter}/>}
+            <Form.Control id="product" type="text" className="mr-top-24" placeholder="+Product" onKeyDown={handleClickOnEnter}/>}
 
           <hr />
 
           <div className="form-section-header">
             <p>Time of purchase <span className="color-gray">- When did this purchase take place?</span></p>
-            <Button className="bg-white border-gray color-gray">Remove Time Period</Button>
+            <Button className="bg-white border-gray color-gray">Delete</Button>
           </div>
           <Form.Control as="select" name="product-search-criteria">
             <option value="category">Product purchased</option>

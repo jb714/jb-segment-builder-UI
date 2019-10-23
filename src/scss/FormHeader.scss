@@ -1,10 +1,6 @@
 //Main content styles
 @import 'styleguide.scss';
 
-.main-content {
-  min-height: fit-content;
-}
-
 //segment builder form styles
 .form-header {
   display: flex;
@@ -24,16 +20,22 @@
       border: none;
       padding-left: 12px;
       border-radius: 3px;
+
+      @media screen and (min-width: $screen-md-min) {
+        height: 50px;
+        font-size: 36px;
+        min-width: 600px;
+      }
+
       @media screen and (max-width: $screen-sm-max) {
         height: 25px;
         min-width: 350px;
         font-size: 18px;
       }
 
-      @media screen and (min-width: $screen-md-min) {
-        height: 50px;
-        font-size: 36px;
-        min-width: 600px;
+      @media screen and (max-width: $screen-xs-max) {
+        height: 25px;
+        min-width: 100%;
       }
     }
     .form-title-input::placeholder {
@@ -46,12 +48,18 @@
   }
 
   .form-header-buttons {
+    display: flex;
+    justify-content: space-between;
     margin-right: 24px;
-
     button {
       font-size: 10px;
       width: 100px;
       margin-left: 8px;
+      @media screen and (max-width: $screen-sm-max) {
+        font-size: 8px;
+        width: 90px;
+        margin-left: 8px;
+      }
     }
   }
 }

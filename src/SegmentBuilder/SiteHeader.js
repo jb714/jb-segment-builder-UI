@@ -20,9 +20,9 @@ class SiteHeader extends Component {
     } = this.props;
 
     return (
-        <Navbar className="site-header">
-          <Navbar.Brand className="site-title color-dark-gray">Qubit.</Navbar.Brand>
-          <Nav className="account-nav">
+        <header className="site-header">
+          <div className="site-title color-dark-gray">Qubit.</div>
+          <div className="account-nav">
             <div className="nav-item circular-badge bg-gray">
               <span className="badge-initials">{this.renderInitials()}</span>
             </div>
@@ -32,8 +32,8 @@ class SiteHeader extends Component {
             <div className="nav-item">
               <input className="nav-searchbar bg-gray" type="text" placeholder={userData.company.companyName}></input>
             </div>
-          </Nav>
-        </Navbar>
+          </div>
+        </header>
     );
   }
 }

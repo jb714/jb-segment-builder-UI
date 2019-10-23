@@ -28,9 +28,7 @@ class App extends Component {
 
     return (
       <div className="App px-0">
-        <header>
           <SiteHeader userData={this.state.userData} />
-        </header>
         <main className="no-gutters main-content">
           <SiteNavigation />
           <FormContainer userData={this.state.userData} />

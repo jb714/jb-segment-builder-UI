@@ -68,12 +68,12 @@ class DefineSegment extends Component {
     let lowerBound = this.setSegmentLowerBound(upperBound);
 
     return (
-        <section className="segment-overview flex-space-between mb-gutter">
-          <div className="define-segment form-body-group mr-gutter">
+        <section className="segment-overview">
+          <div className="define-segment form-body-group mr-gutter mb-gutter">
             <p>Define a new Segment</p>
             <p>Add a Condition to define a segment. The more conditions you add the more specific your segment will be.</p>
           </div>
-          <div className="segment-estimate form-body-group">
+          <div className="segment-estimate form-body-group mb-gutter">
             <p>Estimated segment size</p>
             <p><span className="color-jade">{lowerBound}{upperBound}%</span> of your total traffic expected to join based on a sample of historical data</p>
             <ProgressBar now={upperBound} label />

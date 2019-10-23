@@ -28,7 +28,8 @@ class FormBody extends Component {
     return (
       <div className="form-body">
         <DefineSegment {...props} />
-        <ProductsPurchased {...props} handleClickOnEnter={this.handleClickOnEnter} />
+        <ProductsPurchased {...props}
+          handleClickOnEnter={this.handleClickOnEnter} />
         <TechnologyUsed {...props} handleClickOnEnter={this.handleClickOnEnter} />
         <NewCondition {...props} />
         <div className="flex-end text-sm">
